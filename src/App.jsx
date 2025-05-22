@@ -1,16 +1,15 @@
-
+import { useState } from "react";
 import Routers from './componentes/Routers';
 
+
 function App() {
+  const [count, setCount] = useState(0);
+
   return (
-    <div>
-      <Routers />
-    </div>
+
+    <Routers />
+
   );
 }
 
 export default App;
-
-
-
-

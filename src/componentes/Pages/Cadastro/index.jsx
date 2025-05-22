@@ -1,6 +1,7 @@
 
 import React from "react";
 import "./cadastro.css"
+import AuthProvider from "../../context/auth";
 
 export default function Cadastro() {
     return (
