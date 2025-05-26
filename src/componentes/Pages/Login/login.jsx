@@ -10,7 +10,7 @@ export default function Login() {
     switch (secaoAtiva) {
       case "home":
         return (
-          <p style={{ color: "white" }}>
+          <p style={{color: "white"}}>
             Bem-vindo a página inicial da EasyCart, seu destino confiável para
             compras online. Nossa plataforma foi desenvolvida para oferecer uma
             experiência rápida, segura e fácil de usar, combinando tecnologia
@@ -20,7 +20,7 @@ export default function Login() {
 
       case "sobre":
         return (
-          <p style={{ color: "white" }}>
+          <p style={{ color: "white"}}>
             Na EasyCart, queremos que você tenha uma experiência de compra rápida.
             O site foi criado para ser simples. Aqui você encontra produtos de
             tecnologia, organizados de forma clara para facilitar sua escolha. A
